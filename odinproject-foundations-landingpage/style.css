@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+  
+}
+.container-header {
+	border: 1px solid orange;
+	background-color: #1f2937;
+}
+.headertop {
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+	border: 1px solid violet;
+}
+.logo {
+	border: 1px solid yellow;
+	display: flex;
+	color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;  
+}
+.nav {
+	border: 1px solid brown;
+	display: flex;
+    color: #F9FAF8;
+}
+.nav ul {
+	display: flex;
+	gap: 25px;
+	width: 250px;
+	flex-direction: flex-start;
+    list-style-type: none;
+}
+.heading {
+	display: flex;
+	justify-content: space-around;
+   
+    align-items: center;
+}
+.headingtext {
+	border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.headingtext a {
+    text-decoration: none;
+}
+.headingtext #p1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.headingtext #p2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-indent: 10px;
+}
+.headerimage {
+	border: 1px solid blue;
+}
+.heading button {
+	display: flex;
+	width: 65px;
+	height: 20px;
+	background-color: #3882F6;
+	color: white;
+	border: 1px solid white;
+	text-decoration: none;
+}
+.headerimage img {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    background-color: grey;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------------- End of Header container--------------------------------------------*/
+.container-info {
+	display: flex;
+	border: 1px solid purple;
+	flex-direction: column;
+	text-align: center;
+}
+.container-info img {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border: 1px solid blue;
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+}
+.meat {
+	display: flex;
+    justify-content: center;
+	flex-direction: center;
+    align-items: center;
+	gap: 5px;
+}
+.img1div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+	align-items: center;
+}
+.img2div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+	align-items: center;
+}
+.img3div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+	align-items: center;
+}
+.img4div {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+	align-items: center;
+}
+/* -----------------------------------------------End of info container--------------------------*/
+.container-quote {
+	background-color: #E5E7EB;
+	font-size: 36px;
+	color: #1f2937;
+	padding: 50px;
+}
+/* ----------------------------------------------End of quote Container --------------------------*/
+.card {
+	background-color: #3882F6;
+	display: flex;
+    justify-content: space-around;
+	margin: 50px 50px;
+    padding: 10px;
+	color: #E5E7EB;
+	align-items: center;
+	border: 1px solid red;
+    gap: 20px
+}
+.card button {
+	display: flex;
+	width: 65px;
+	height: 20px;
+	background-color: #3882F6;
+	color: white;
+	border: 1px solid white;
+    border-radius: 5px;
+	text-decoration: none;
+}
+.card a {
+	text-decoration: none;
+}
+.btncont {
+	border: 1px solid yellow;
+}
+.banner-text {
+	border: 1px solid yellow;
+}
+/* ----------------------------------------End of Banner container -------------------------------*/
+.container-footer {
+	background-color: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
